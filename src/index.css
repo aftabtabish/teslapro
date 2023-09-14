@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior:smooth ;
+}
+.header{
+    @apply flex items-center justify-between w-full fixed top-5 z-10 h-[30px] p-[20px]
+}
+.links{
+    @apply  font-semibold mx-[10px] px-[4px] py-[2px] rounded-[5px] bg-transparent hover:bg-slate-500 transition-all duration-300 hover:bg-opacity-30
+}
+.icons{
+    @apply gap-[20px] flex text-2xl 
+}
+@media (max-width: 640px) {
+    #lang {
+      display: none;
+    }
+    #sup {
+        display: none;
+      }
+  
+    #pro {
+      display: block;
+    }
+  }
+.first{
+    @apply w-full h-screen flex justify-center items-center relative
+}
+.second{
+    @apply w-full h-screen relative
+}
+.third{
+    @apply w-full h-screen relative
+}
+.fourth{
+    @apply w-full h-screen relative
+}
+.fifth{
+    @apply w-full h-screen relative
+}
+.fifth #singbtn{
+    @apply mt-[100px]
+}
+.six{
+    @apply w-full h-screen relative
+}
+.seven{
+    @apply w-full h-screen relative
+}
+.seven #singbtn{
+    @apply mt-[100px]
+}
+.img1{
+    @apply w-full h-full object-cover
+}
+.video{
+    @apply w-full h-full object-cover
+}
+
+.ban {
+    @apply text-center absolute  m-auto inset-0 top-[100px];
+  }
+  
+  /* Media query for small screens (e.g., mobile devices) */
+  @media (max-width: 640px) {
+    .ban {
+      width: 80%; /* Adjust as needed for responsiveness */
+      height: auto; /* Allows the height to adjust to the content */
+    }
+  }
+  
+  
+
+.name{
+    @apply text-3xl font-bold text-white
+}
+.price{
+    @apply text-2xl font-bold text-white
+}
+.buttons{
+    @apply font-bold mb-10 mt-[300px] flex flex-col lg:flex-row justify-center items-center gap-1
+}
+.btn1{
+    @apply border-none w-[250px] h-[40px]  rounded-md bg-white sm:mb-2
+}
+@media (max-width: 640px) {
+    .btn1 {
+      width: 80%; /* Adjust as needed for responsiveness */
+      height: auto; /* Allows the height to adjust to the content */
+    }
+  }
+.btn2{
+    @apply  w-[250px] h-[40px] rounded-md bg-slate-400 sm:mb-2
+}
+@media (max-width: 640px) {
+    .btn2 {
+      width: 80%; /* Adjust as needed for responsiveness */
+      height: auto; /* Allows the height to adjust to the content */
+    }
+  }
+.lining{
+    @apply underline underline-offset-4 text-white
+}
+.desc{
+    @apply text-white
+}
+.note{
+    @apply text-white
+}
+.last{
+    @apply text-center absolute top-[600px] m-auto inset-0 text-white 
+}
+.lastlink{
+    @apply mr-[20px]
+}
