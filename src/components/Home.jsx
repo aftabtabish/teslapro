@@ -51,7 +51,7 @@ export default function Home() {
         
 
         <Ban
-        title="Model Sam"
+        title="Model S"
         subtitle="From $71,090*"
         description="After Est. Gas Savings"
         buttonText1="Order Now"
