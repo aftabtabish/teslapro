@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link, Element } from 'react-scroll'
 import Ban from './Ban'
 import Footer from './Footer'
 import Header from './Header'
@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div>
     <Header/>
-    <section className='first'>
+    <Element name="section1">
+    <section id='sec'>
     <video
     src="./videos/video1.mp4" autoPlay loop muted className='video'/>
 
@@ -24,9 +25,10 @@ export default function Home() {
         hideButton2={true}
       />
       </section>
+      </Element>
 
-
-      <section className='second'>
+      <Element name="section2">
+      <section  id='sec'>
     
         <img src="./images/img2.jpg" alt="" className='img1'/>
 
@@ -43,8 +45,10 @@ export default function Home() {
         hideButton2={true}
       />
       </section>
-
-      <section className='third'>
+      </Element>
+      
+      <Element name="section3">
+      <section id='sec'>
     
         <img src="./images/img3.jpg" alt="" className='img1'/>
 
@@ -61,9 +65,10 @@ export default function Home() {
         hideButton2={true}
       />
       </section>
+      </Element>
 
-
-      <section className='fourth'>
+      <Element name="section4">
+      <section  id='sec'>
     
         <img src="./images/img4.jpg" alt="" className='img1'/>
 
@@ -80,9 +85,11 @@ export default function Home() {
         hideButton2={true}
       />
       </section>
+      </Element>
+      
 
-
-      <section className='fifth'>
+      <Element name="section5">
+      <section id='sec'>
     
       <video
     src="./videos/video2.mp4" autoPlay loop muted className='video'/>
@@ -96,9 +103,10 @@ export default function Home() {
         hideButton2={false}
       />
       </section>
+      </Element>
 
-
-      <section className='six'>
+      <Element name="section6">
+      <section id='sec'>
     
         <img src="./images/img6.jpg" alt="" className='img1'/>
 
@@ -112,8 +120,9 @@ export default function Home() {
         hideButton2={true}
       />
       </section>
-
-      <section className='seven'>
+      </Element>
+      <Element name="section7">
+      <section id='sec'>
     
         <img src="./images/img7.jpg" alt="" className='img1'/>
 
@@ -127,6 +136,8 @@ export default function Home() {
       <Footer/>
      
       </section>
+      </Element>
+      
     </div>
   )
 }

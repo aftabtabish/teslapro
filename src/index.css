@@ -26,33 +26,10 @@ html{
       display: block;
     }
   }
-.first{
+#sec{
     @apply w-full h-screen flex justify-center items-center relative
 }
-.second{
-    @apply w-full h-screen relative
-}
-.third{
-    @apply w-full h-screen relative
-}
-.fourth{
-    @apply w-full h-screen relative
-}
-.fifth{
-    @apply w-full h-screen relative
-}
-.fifth #singbtn{
-    @apply mt-[100px]
-}
-.six{
-    @apply w-full h-screen relative
-}
-.seven{
-    @apply w-full h-screen relative
-}
-.seven #singbtn{
-    @apply mt-[100px]
-}
+
 .img1{
     @apply w-full h-full object-cover
 }
@@ -61,7 +38,7 @@ html{
 }
 
 .ban {
-    @apply text-center absolute  m-auto inset-0 top-[100px];
+    @apply text-center absolute  m-auto inset-0 top-[100px] ;
   }
   
   /* Media query for small screens (e.g., mobile devices) */

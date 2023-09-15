@@ -5,7 +5,11 @@ export default function Ban(props) {
 
   return (
     <div>
-      <div className='ban'>
+      <div className='ban'
+      data-aos="zoom-in"
+     data-aos-easing="linear"
+     data-aos-duration="800"
+     data-aos-once="false">
         <h1 className='name'>{title}</h1>
         <h2 className='price'>{subtitle}</h2>
         <h3 className='desc'>{description}</h3>
