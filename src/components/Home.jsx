@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Element } from 'react-scroll'
+import { Element } from 'react-scroll'
 import Ban from './Ban'
 import Footer from './Footer'
 import Header from './Header'
